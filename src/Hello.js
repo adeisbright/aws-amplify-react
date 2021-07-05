@@ -2,7 +2,11 @@ import React from "react"
 
 const Hello = () => {
     return (
-        <h1>Hello , World</h1>
+        <React.Fragment>
+            <h1>Hello , World</h1>
+            <p>This example is with Hosted with Amplify</p>
+        </React.Fragment>
+      
     )
 }
 
